@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F9A0486AA7600D96B5E /* Hotkey Dumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* Hotkey Dumper.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		D85EC12D0CA52CFE009E0E5E /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85EC12C0CA52CFE009E0E5E /* PreferencePanes.framework */; };
+		D85EC1330CA52D07009E0E5E /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85EC1320CA52D07009E0E5E /* ApplicationServices.framework */; };
+		D85EC4AE0CA52E42009E0E5E /* NSPrefPaneUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC4AD0CA52E42009E0E5E /* NSPrefPaneUtils.h */; };
+		D85EC5190CA53010009E0E5E /* CarbonHelpers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5080CA53010009E0E5E /* CarbonHelpers.h */; };
+		D85EC51A0CA53010009E0E5E /* CGSAccessibility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5090CA53010009E0E5E /* CGSAccessibility.h */; };
+		D85EC51B0CA53010009E0E5E /* CGSCIFilter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC50A0CA53010009E0E5E /* CGSCIFilter.h */; };
+		D85EC51C0CA53010009E0E5E /* CGSConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC50B0CA53010009E0E5E /* CGSConnection.h */; };
+		D85EC51D0CA53010009E0E5E /* CGSCursor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC50C0CA53010009E0E5E /* CGSCursor.h */; };
+		D85EC51E0CA53010009E0E5E /* CGSDebug.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC50D0CA53010009E0E5E /* CGSDebug.h */; };
+		D85EC51F0CA53010009E0E5E /* CGSDisplays.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC50E0CA53010009E0E5E /* CGSDisplays.h */; };
+		D85EC5210CA53010009E0E5E /* CGSHotKeys.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5100CA53010009E0E5E /* CGSHotKeys.h */; };
+		D85EC5220CA53010009E0E5E /* CGSInternal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5110CA53010009E0E5E /* CGSInternal.h */; };
+		D85EC5230CA53010009E0E5E /* CGSMisc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5120CA53010009E0E5E /* CGSMisc.h */; };
+		D85EC5240CA53010009E0E5E /* CGSRegion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5130CA53010009E0E5E /* CGSRegion.h */; };
+		D85EC5260CA53010009E0E5E /* CGSSession.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5150CA53010009E0E5E /* CGSSession.h */; };
+		D85EC5270CA53010009E0E5E /* CGSTransitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5160CA53010009E0E5E /* CGSTransitions.h */; };
+		D85EC5280CA53010009E0E5E /* CGSWindow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5170CA53010009E0E5E /* CGSWindow.h */; };
+		D85EC5290CA53010009E0E5E /* CGSWorkspace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85EC5180CA53010009E0E5E /* CGSWorkspace.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D85EC4AE0CA52E42009E0E5E /* NSPrefPaneUtils.h in CopyFiles */,
+				D85EC5190CA53010009E0E5E /* CarbonHelpers.h in CopyFiles */,
+				D85EC51A0CA53010009E0E5E /* CGSAccessibility.h in CopyFiles */,
+				D85EC51B0CA53010009E0E5E /* CGSCIFilter.h in CopyFiles */,
+				D85EC51C0CA53010009E0E5E /* CGSConnection.h in CopyFiles */,
+				D85EC51D0CA53010009E0E5E /* CGSCursor.h in CopyFiles */,
+				D85EC51E0CA53010009E0E5E /* CGSDebug.h in CopyFiles */,
+				D85EC51F0CA53010009E0E5E /* CGSDisplays.h in CopyFiles */,
+				D85EC5210CA53010009E0E5E /* CGSHotKeys.h in CopyFiles */,
+				D85EC5220CA53010009E0E5E /* CGSInternal.h in CopyFiles */,
+				D85EC5230CA53010009E0E5E /* CGSMisc.h in CopyFiles */,
+				D85EC5240CA53010009E0E5E /* CGSRegion.h in CopyFiles */,
+				D85EC5260CA53010009E0E5E /* CGSSession.h in CopyFiles */,
+				D85EC5270CA53010009E0E5E /* CGSTransitions.h in CopyFiles */,
+				D85EC5280CA53010009E0E5E /* CGSWindow.h in CopyFiles */,
+				D85EC5290CA53010009E0E5E /* CGSWorkspace.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* Hotkey Dumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Hotkey Dumper.m"; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* Hotkey Dumper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hotkey Dumper_Prefix.pch"; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* Hotkey Dumper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hotkey Dumper"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85EC12C0CA52CFE009E0E5E /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		D85EC1320CA52D07009E0E5E /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		D85EC4AD0CA52E42009E0E5E /* NSPrefPaneUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPrefPaneUtils.h; sourceTree = "<group>"; };
+		D85EC5080CA53010009E0E5E /* CarbonHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonHelpers.h; sourceTree = "<group>"; };
+		D85EC5090CA53010009E0E5E /* CGSAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSAccessibility.h; sourceTree = "<group>"; };
+		D85EC50A0CA53010009E0E5E /* CGSCIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSCIFilter.h; sourceTree = "<group>"; };
+		D85EC50B0CA53010009E0E5E /* CGSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSConnection.h; sourceTree = "<group>"; };
+		D85EC50C0CA53010009E0E5E /* CGSCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSCursor.h; sourceTree = "<group>"; };
+		D85EC50D0CA53010009E0E5E /* CGSDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSDebug.h; sourceTree = "<group>"; };
+		D85EC50E0CA53010009E0E5E /* CGSDisplays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSDisplays.h; sourceTree = "<group>"; };
+		D85EC5100CA53010009E0E5E /* CGSHotKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSHotKeys.h; sourceTree = "<group>"; };
+		D85EC5110CA53010009E0E5E /* CGSInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSInternal.h; sourceTree = "<group>"; };
+		D85EC5120CA53010009E0E5E /* CGSMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSMisc.h; sourceTree = "<group>"; };
+		D85EC5130CA53010009E0E5E /* CGSRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSRegion.h; sourceTree = "<group>"; };
+		D85EC5150CA53010009E0E5E /* CGSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSSession.h; sourceTree = "<group>"; };
+		D85EC5160CA53010009E0E5E /* CGSTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSTransitions.h; sourceTree = "<group>"; };
+		D85EC5170CA53010009E0E5E /* CGSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSWindow.h; sourceTree = "<group>"; };
+		D85EC5180CA53010009E0E5E /* CGSWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSWorkspace.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				D85EC12D0CA52CFE009E0E5E /* PreferencePanes.framework in Frameworks */,
+				D85EC1330CA52D07009E0E5E /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Hotkey Dumper */ = {
+			isa = PBXGroup;
+			children = (
+				D85EC5070CA53010009E0E5E /* CGSInternal */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = "Hotkey Dumper";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D85EC4AD0CA52E42009E0E5E /* NSPrefPaneUtils.h */,
+				32A70AAB03705E1F00C91783 /* Hotkey Dumper_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* Hotkey Dumper.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D85EC1320CA52D07009E0E5E /* ApplicationServices.framework */,
+				D85EC12C0CA52CFE009E0E5E /* PreferencePanes.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* Hotkey Dumper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85EC5070CA53010009E0E5E /* CGSInternal */ = {
+			isa = PBXGroup;
+			children = (
+				D85EC5080CA53010009E0E5E /* CarbonHelpers.h */,
+				D85EC5090CA53010009E0E5E /* CGSAccessibility.h */,
+				D85EC50A0CA53010009E0E5E /* CGSCIFilter.h */,
+				D85EC50B0CA53010009E0E5E /* CGSConnection.h */,
+				D85EC50C0CA53010009E0E5E /* CGSCursor.h */,
+				D85EC50D0CA53010009E0E5E /* CGSDebug.h */,
+				D85EC50E0CA53010009E0E5E /* CGSDisplays.h */,
+				D85EC5100CA53010009E0E5E /* CGSHotKeys.h */,
+				D85EC5110CA53010009E0E5E /* CGSInternal.h */,
+				D85EC5120CA53010009E0E5E /* CGSMisc.h */,
+				D85EC5130CA53010009E0E5E /* CGSRegion.h */,
+				D85EC5150CA53010009E0E5E /* CGSSession.h */,
+				D85EC5160CA53010009E0E5E /* CGSTransitions.h */,
+				D85EC5170CA53010009E0E5E /* CGSWindow.h */,
+				D85EC5180CA53010009E0E5E /* CGSWorkspace.h */,
+			);
+			name = CGSInternal;
+			path = ../../CGSInternal;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* Hotkey Dumper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "Hotkey Dumper" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hotkey Dumper";
+			productInstallPath = "$(HOME)/bin";
+			productName = "Hotkey Dumper";
+			productReference = 8DD76FA10486AA7600D96B5E /* Hotkey Dumper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "Hotkey Dumper" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Hotkey Dumper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* Hotkey Dumper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* Hotkey Dumper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hotkey Dumper_Prefix.pch";
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = "Hotkey Dumper";
+				SDKROOT = "";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hotkey Dumper_Prefix.pch";
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = "Hotkey Dumper";
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "Hotkey Dumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "Hotkey Dumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

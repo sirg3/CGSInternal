@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		D8EF09AE0CA3C85E000A14FE /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EF09AD0CA3C85E000A14FE /* ApplicationServices.framework */; };
+		D8EF0CB90CA3CBCA000A14FE /* CarbonHelpers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CA80CA3CBCA000A14FE /* CarbonHelpers.h */; };
+		D8EF0CBA0CA3CBCA000A14FE /* CGSAccessibility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CA90CA3CBCA000A14FE /* CGSAccessibility.h */; };
+		D8EF0CBB0CA3CBCA000A14FE /* CGSCIFilter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CAA0CA3CBCA000A14FE /* CGSCIFilter.h */; };
+		D8EF0CBC0CA3CBCA000A14FE /* CGSConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CAB0CA3CBCA000A14FE /* CGSConnection.h */; };
+		D8EF0CBD0CA3CBCA000A14FE /* CGSCursor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CAC0CA3CBCA000A14FE /* CGSCursor.h */; };
+		D8EF0CBE0CA3CBCA000A14FE /* CGSDebug.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CAD0CA3CBCA000A14FE /* CGSDebug.h */; };
+		D8EF0CBF0CA3CBCA000A14FE /* CGSDisplays.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CAE0CA3CBCA000A14FE /* CGSDisplays.h */; };
+		D8EF0CC10CA3CBCA000A14FE /* CGSHotKeys.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CB00CA3CBCA000A14FE /* CGSHotKeys.h */; };
+		D8EF0CC20CA3CBCA000A14FE /* CGSInternal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CB10CA3CBCA000A14FE /* CGSInternal.h */; };
+		D8EF0CC30CA3CBCA000A14FE /* CGSMisc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CB20CA3CBCA000A14FE /* CGSMisc.h */; };
+		D8EF0CC40CA3CBCA000A14FE /* CGSRegion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CB30CA3CBCA000A14FE /* CGSRegion.h */; };
+		D8EF0CC60CA3CBCA000A14FE /* CGSSession.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CB50CA3CBCA000A14FE /* CGSSession.h */; };
+		D8EF0CC70CA3CBCA000A14FE /* CGSTransitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CB60CA3CBCA000A14FE /* CGSTransitions.h */; };
+		D8EF0CC80CA3CBCA000A14FE /* CGSWindow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CB70CA3CBCA000A14FE /* CGSWindow.h */; };
+		D8EF0CC90CA3CBCA000A14FE /* CGSWorkspace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8EF0CB80CA3CBCA000A14FE /* CGSWorkspace.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D8EF0CB90CA3CBCA000A14FE /* CarbonHelpers.h in CopyFiles */,
+				D8EF0CBA0CA3CBCA000A14FE /* CGSAccessibility.h in CopyFiles */,
+				D8EF0CBB0CA3CBCA000A14FE /* CGSCIFilter.h in CopyFiles */,
+				D8EF0CBC0CA3CBCA000A14FE /* CGSConnection.h in CopyFiles */,
+				D8EF0CBD0CA3CBCA000A14FE /* CGSCursor.h in CopyFiles */,
+				D8EF0CBE0CA3CBCA000A14FE /* CGSDebug.h in CopyFiles */,
+				D8EF0CBF0CA3CBCA000A14FE /* CGSDisplays.h in CopyFiles */,
+				D8EF0CC10CA3CBCA000A14FE /* CGSHotKeys.h in CopyFiles */,
+				D8EF0CC20CA3CBCA000A14FE /* CGSInternal.h in CopyFiles */,
+				D8EF0CC30CA3CBCA000A14FE /* CGSMisc.h in CopyFiles */,
+				D8EF0CC40CA3CBCA000A14FE /* CGSRegion.h in CopyFiles */,
+				D8EF0CC60CA3CBCA000A14FE /* CGSSession.h in CopyFiles */,
+				D8EF0CC70CA3CBCA000A14FE /* CGSTransitions.h in CopyFiles */,
+				D8EF0CC80CA3CBCA000A14FE /* CGSWindow.h in CopyFiles */,
+				D8EF0CC90CA3CBCA000A14FE /* CGSWorkspace.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* AlphaSetter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlphaSetter; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EF09AD0CA3C85E000A14FE /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		D8EF0CA80CA3CBCA000A14FE /* CarbonHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonHelpers.h; sourceTree = "<group>"; };
+		D8EF0CA90CA3CBCA000A14FE /* CGSAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSAccessibility.h; sourceTree = "<group>"; };
+		D8EF0CAA0CA3CBCA000A14FE /* CGSCIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSCIFilter.h; sourceTree = "<group>"; };
+		D8EF0CAB0CA3CBCA000A14FE /* CGSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSConnection.h; sourceTree = "<group>"; };
+		D8EF0CAC0CA3CBCA000A14FE /* CGSCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSCursor.h; sourceTree = "<group>"; };
+		D8EF0CAD0CA3CBCA000A14FE /* CGSDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSDebug.h; sourceTree = "<group>"; };
+		D8EF0CAE0CA3CBCA000A14FE /* CGSDisplays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSDisplays.h; sourceTree = "<group>"; };
+		D8EF0CB00CA3CBCA000A14FE /* CGSHotKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSHotKeys.h; sourceTree = "<group>"; };
+		D8EF0CB10CA3CBCA000A14FE /* CGSInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSInternal.h; sourceTree = "<group>"; };
+		D8EF0CB20CA3CBCA000A14FE /* CGSMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSMisc.h; sourceTree = "<group>"; };
+		D8EF0CB30CA3CBCA000A14FE /* CGSRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSRegion.h; sourceTree = "<group>"; };
+		D8EF0CB50CA3CBCA000A14FE /* CGSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSSession.h; sourceTree = "<group>"; };
+		D8EF0CB60CA3CBCA000A14FE /* CGSTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSTransitions.h; sourceTree = "<group>"; };
+		D8EF0CB70CA3CBCA000A14FE /* CGSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSWindow.h; sourceTree = "<group>"; };
+		D8EF0CB80CA3CBCA000A14FE /* CGSWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSWorkspace.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EF09AE0CA3C85E000A14FE /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* AlphaSetter */ = {
+			isa = PBXGroup;
+			children = (
+				D8EF0CA70CA3CBCA000A14FE /* CGSInternal */,
+				D8EF09AD0CA3C85E000A14FE /* ApplicationServices.framework */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = AlphaSetter;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* AlphaSetter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8EF0CA70CA3CBCA000A14FE /* CGSInternal */ = {
+			isa = PBXGroup;
+			children = (
+				D8EF0CA80CA3CBCA000A14FE /* CarbonHelpers.h */,
+				D8EF0CA90CA3CBCA000A14FE /* CGSAccessibility.h */,
+				D8EF0CAA0CA3CBCA000A14FE /* CGSCIFilter.h */,
+				D8EF0CAB0CA3CBCA000A14FE /* CGSConnection.h */,
+				D8EF0CAC0CA3CBCA000A14FE /* CGSCursor.h */,
+				D8EF0CAD0CA3CBCA000A14FE /* CGSDebug.h */,
+				D8EF0CAE0CA3CBCA000A14FE /* CGSDisplays.h */,
+				D8EF0CB00CA3CBCA000A14FE /* CGSHotKeys.h */,
+				D8EF0CB10CA3CBCA000A14FE /* CGSInternal.h */,
+				D8EF0CB20CA3CBCA000A14FE /* CGSMisc.h */,
+				D8EF0CB30CA3CBCA000A14FE /* CGSRegion.h */,
+				D8EF0CB50CA3CBCA000A14FE /* CGSSession.h */,
+				D8EF0CB60CA3CBCA000A14FE /* CGSTransitions.h */,
+				D8EF0CB70CA3CBCA000A14FE /* CGSWindow.h */,
+				D8EF0CB80CA3CBCA000A14FE /* CGSWorkspace.h */,
+			);
+			name = CGSInternal;
+			path = ../../CGSInternal;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* AlphaSetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "AlphaSetter" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphaSetter;
+			productInstallPath = "$(HOME)/bin";
+			productName = AlphaSetter;
+			productReference = 8DD76FB20486AB0100D96B5E /* AlphaSetter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "AlphaSetter" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* AlphaSetter */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* AlphaSetter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = AlphaSetter;
+				SDKROOT = "";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = AlphaSetter;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "AlphaSetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "AlphaSetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
