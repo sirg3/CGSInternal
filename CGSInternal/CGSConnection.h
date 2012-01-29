@@ -26,7 +26,7 @@
 #include <ApplicationServices/ApplicationServices.h>
 
 typedef int CGSConnectionID;
-const CGSConnectionID kCGSNullConnectionID = 0;
+static const CGSConnectionID kCGSNullConnectionID = 0;
 
 /*! DOCUMENTATION PENDING - verify this is Leopard only! */
 CG_EXTERN CGError CGSSetLoginwindowConnection(CGSConnectionID cid) AVAILABLE_MAC_OS_X_VERSION_10_5_AND_LATER;
